@@ -1,0 +1,96 @@
+Running merger.
+
+Choose one of saved models, or enter a name to create a new model.
+[r] : rename
+[d] : delete
+
+[0] : new - latest
+ : 0
+Loading new_Quick96 model...
+Initializing models:   0%|          | 0/4 [00:00<?, ?it/s]Initializing models:  25%|##5       | 1/4 [00:00<00:00,  6.36it/s]Initializing models:  75%|#######5  | 3/4 [00:00<00:00,  5.45it/s]Initializing models: 100%|##########| 4/4 [00:00<00:00,  4.46it/s]Initializing models: 100%|##########| 4/4 [00:00<00:00,  4.74it/s]
+========== Model Summary ===========
+==                                ==
+==        Model name: new_Quick96 ==
+==                                ==
+== Current iteration: 10230       ==
+==                                ==
+==-------- Model Options ---------==
+==                                ==
+==        batch_size: 4           ==
+==                                ==
+==---------- Running On ----------==
+==                                ==
+==      Using device: CPU         ==
+==                                ==
+====================================
+[y] Use interactive merger? ( y/n ) : y
+[48] Number of workers? ( 1-48 ?:help ) : 48
+Collecting alignments:   0%|          | 0/1619 [00:00<?, ?it/s]Collecting alignments:   0%|          | 6/1619 [00:00<00:28, 57.59it/s]Collecting alignments:   1%|          | 12/1619 [00:00<00:34, 46.63it/s]Collecting alignments:   1%|1         | 17/1619 [00:00<00:37, 42.23it/s]Collecting alignments:   1%|1         | 22/1619 [00:00<00:45, 35.04it/s]Collecting alignments:   2%|1         | 28/1619 [00:00<00:39, 40.01it/s]Collecting alignments:   2%|2         | 36/1619 [00:00<00:32, 48.43it/s]Collecting alignments:   3%|2         | 44/1619 [00:00<00:28, 55.04it/s]Collecting alignments:   3%|3         | 50/1619 [00:01<00:28, 54.68it/s]Collecting alignments:   4%|3         | 58/1619 [00:01<00:25, 61.18it/s]Collecting alignments:   4%|4         | 65/1619 [00:01<00:24, 62.40it/s]Collecting alignments:   4%|4         | 72/1619 [00:01<00:26, 58.73it/s]Collecting alignments:   5%|4         | 79/1619 [00:01<00:29, 51.53it/s]Collecting alignments:   5%|5         | 85/1619 [00:01<00:29, 51.26it/s]Collecting alignments:   6%|5         | 91/1619 [00:01<00:29, 52.43it/s]Collecting alignments:   6%|6         | 99/1619 [00:01<00:25, 59.21it/s]Collecting alignments:   7%|6         | 107/1619 [00:02<00:27, 54.55it/s]Collecting alignments:   7%|7         | 114/1619 [00:02<00:26, 57.21it/s]Collecting alignments:   8%|7         | 124/1619 [00:02<00:21, 68.03it/s]Collecting alignments:   8%|8         | 132/1619 [00:02<00:22, 66.15it/s]Collecting alignments:   9%|8         | 142/1619 [00:02<00:20, 71.10it/s]Collecting alignments:   9%|9         | 153/1619 [00:02<00:18, 77.41it/s]Collecting alignments:  10%|#         | 167/1619 [00:02<00:18, 80.38it/s]Collecting alignments:  11%|#         | 177/1619 [00:02<00:16, 84.94it/s]Collecting alignments:  12%|#1        | 190/1619 [00:02<00:14, 95.48it/s]Collecting alignments:  12%|#2        | 202/1619 [00:03<00:16, 85.14it/s]Collecting alignments:  13%|#3        | 218/1619 [00:03<00:14, 95.55it/s]Collecting alignments:  14%|#4        | 234/1619 [00:03<00:12, 110.92it/s]Collecting alignments:  15%|#5        | 246/1619 [00:03<00:14, 93.40it/s] Collecting alignments:  16%|#5        | 257/1619 [00:03<00:15, 87.21it/s]Collecting alignments:  16%|#6        | 267/1619 [00:03<00:15, 86.61it/s]Collecting alignments:  17%|#7        | 277/1619 [00:03<00:16, 80.25it/s]Collecting alignments:  18%|#7        | 289/1619 [00:04<00:15, 88.47it/s]Collecting alignments:  19%|#8        | 303/1619 [00:04<00:13, 96.45it/s]Collecting alignments:  19%|#9        | 314/1619 [00:04<00:14, 92.02it/s]Collecting alignments:  20%|##        | 325/1619 [00:04<00:13, 96.06it/s]Collecting alignments:  21%|##        | 335/1619 [00:04<00:15, 82.22it/s]Collecting alignments:  21%|##1       | 344/1619 [00:04<00:18, 69.31it/s]Collecting alignments:  22%|##2       | 357/1619 [00:04<00:15, 81.56it/s]Collecting alignments:  23%|##2       | 366/1619 [00:05<00:16, 75.09it/s]Collecting alignments:  23%|##3       | 375/1619 [00:05<00:18, 68.24it/s]Collecting alignments:  24%|##3       | 384/1619 [00:05<00:18, 68.42it/s]Collecting alignments:  25%|##4       | 398/1619 [00:05<00:15, 77.99it/s]Collecting alignments:  25%|##5       | 412/1619 [00:05<00:13, 90.77it/s]Collecting alignments:  26%|##6       | 422/1619 [00:05<00:16, 73.74it/s]Collecting alignments:  27%|##6       | 431/1619 [00:05<00:16, 71.23it/s]Collecting alignments:  27%|##7       | 440/1619 [00:06<00:15, 74.36it/s]Collecting alignments:  29%|##8       | 464/1619 [00:06<00:10, 108.00it/s]Collecting alignments:  29%|##9       | 476/1619 [00:06<00:11, 102.99it/s]Collecting alignments:  30%|###       | 489/1619 [00:06<00:10, 109.35it/s]Collecting alignments:  31%|###1      | 506/1619 [00:06<00:08, 124.09it/s]Collecting alignments:  32%|###2      | 519/1619 [00:06<00:08, 124.24it/s]Collecting alignments:  33%|###2      | 532/1619 [00:06<00:11, 94.47it/s] Collecting alignments:  34%|###3      | 543/1619 [00:06<00:12, 89.45it/s]Collecting alignments:  34%|###4      | 557/1619 [00:07<00:10, 97.11it/s]Collecting alignments:  35%|###5      | 568/1619 [00:07<00:11, 89.55it/s]Collecting alignments:  36%|###5      | 578/1619 [00:07<00:12, 83.88it/s]Collecting alignments:  36%|###6      | 587/1619 [00:07<00:12, 83.43it/s]Collecting alignments:  37%|###7      | 602/1619 [00:07<00:10, 92.50it/s]Collecting alignments:  38%|###7      | 612/1619 [00:07<00:11, 86.96it/s]Collecting alignments:  39%|###8      | 629/1619 [00:07<00:09, 102.18it/s]Collecting alignments:  40%|###9      | 640/1619 [00:08<00:10, 96.72it/s] Collecting alignments:  40%|####      | 650/1619 [00:08<00:10, 88.09it/s]Collecting alignments:  41%|####      | 659/1619 [00:08<00:12, 78.44it/s]Collecting alignments:  42%|####1     | 672/1619 [00:08<00:10, 86.62it/s]Collecting alignments:  42%|####2     | 681/1619 [00:08<00:11, 78.27it/s]Collecting alignments:  43%|####2     | 692/1619 [00:08<00:11, 82.53it/s]Collecting alignments:  44%|####3     | 705/1619 [00:08<00:10, 87.96it/s]Collecting alignments:  44%|####4     | 714/1619 [00:08<00:11, 79.08it/s]Collecting alignments:  45%|####4     | 723/1619 [00:09<00:11, 80.82it/s]Collecting alignments:  45%|####5     | 732/1619 [00:09<00:11, 75.99it/s]Collecting alignments:  46%|####5     | 740/1619 [00:09<00:13, 67.10it/s]Collecting alignments:  46%|####6     | 748/1619 [00:09<00:12, 69.62it/s]Collecting alignments:  47%|####6     | 756/1619 [00:09<00:13, 63.54it/s]Collecting alignments:  47%|####7     | 766/1619 [00:09<00:12, 69.66it/s]Collecting alignments:  48%|####7     | 776/1619 [00:09<00:11, 74.49it/s]Collecting alignments:  48%|####8     | 784/1619 [00:09<00:11, 74.45it/s]Collecting alignments:  49%|####9     | 795/1619 [00:10<00:09, 83.80it/s]Collecting alignments:  50%|#####     | 812/1619 [00:10<00:07, 104.85it/s]Collecting alignments:  51%|#####     | 823/1619 [00:10<00:08, 92.84it/s] Collecting alignments:  51%|#####1    | 833/1619 [00:10<00:08, 92.23it/s]Collecting alignments:  52%|#####2    | 843/1619 [00:10<00:08, 92.74it/s]Collecting alignments:  53%|#####2    | 853/1619 [00:10<00:08, 89.60it/s]Collecting alignments:  53%|#####3    | 864/1619 [00:10<00:08, 93.88it/s]Collecting alignments:  54%|#####3    | 874/1619 [00:10<00:08, 83.76it/s]Collecting alignments:  55%|#####4    | 883/1619 [00:11<00:12, 56.74it/s]Collecting alignments:  55%|#####5    | 895/1619 [00:11<00:10, 68.73it/s]Collecting alignments:  56%|#####5    | 905/1619 [00:11<00:10, 67.65it/s]Collecting alignments:  57%|#####6    | 919/1619 [00:11<00:08, 83.11it/s]Collecting alignments:  58%|#####7    | 939/1619 [00:11<00:06, 104.29it/s]Collecting alignments:  59%|#####9    | 962/1619 [00:11<00:04, 134.29it/s]Collecting alignments:  60%|######    | 979/1619 [00:11<00:05, 122.54it/s]Collecting alignments:  62%|######1   | 1000/1619 [00:12<00:04, 143.01it/s]Collecting alignments:  63%|######2   | 1018/1619 [00:12<00:04, 148.78it/s]Collecting alignments:  64%|######3   | 1034/1619 [00:12<00:04, 146.18it/s]Collecting alignments:  65%|######4   | 1050/1619 [00:12<00:04, 126.27it/s]Collecting alignments:  66%|######6   | 1072/1619 [00:12<00:03, 146.25it/s]Collecting alignments:  67%|######7   | 1088/1619 [00:12<00:05, 90.58it/s] Collecting alignments:  68%|######8   | 1101/1619 [00:13<00:06, 78.34it/s]Collecting alignments:  69%|######8   | 1112/1619 [00:13<00:06, 83.57it/s]Collecting alignments:  69%|######9   | 1125/1619 [00:13<00:05, 90.48it/s]Collecting alignments:  70%|#######   | 1140/1619 [00:13<00:04, 102.99it/s]Collecting alignments:  72%|#######1  | 1158/1619 [00:13<00:03, 120.85it/s]Collecting alignments:  72%|#######2  | 1172/1619 [00:13<00:04, 101.24it/s]Collecting alignments:  73%|#######3  | 1184/1619 [00:13<00:04, 94.11it/s] Collecting alignments:  74%|#######3  | 1196/1619 [00:14<00:04, 99.73it/s]Collecting alignments:  75%|#######4  | 1207/1619 [00:14<00:04, 101.00it/s]Collecting alignments:  75%|#######5  | 1219/1619 [00:14<00:03, 105.69it/s]Collecting alignments:  76%|#######6  | 1235/1619 [00:14<00:03, 117.87it/s]Collecting alignments:  77%|#######7  | 1249/1619 [00:14<00:03, 116.06it/s]Collecting alignments:  78%|#######7  | 1261/1619 [00:14<00:04, 80.37it/s] Collecting alignments:  79%|#######8  | 1271/1619 [00:14<00:04, 75.94it/s]Collecting alignments:  79%|#######9  | 1281/1619 [00:15<00:04, 76.19it/s]Collecting alignments:  80%|#######9  | 1290/1619 [00:15<00:04, 79.01it/s]Collecting alignments:  80%|########  | 1303/1619 [00:15<00:03, 87.53it/s]Collecting alignments:  81%|########1 | 1316/1619 [00:15<00:03, 96.32it/s]Collecting alignments:  82%|########1 | 1327/1619 [00:15<00:03, 87.49it/s]Collecting alignments:  83%|########3 | 1345/1619 [00:15<00:02, 106.60it/s]Collecting alignments:  84%|########4 | 1363/1619 [00:15<00:02, 124.17it/s]Collecting alignments:  85%|########5 | 1377/1619 [00:15<00:02, 97.43it/s] Collecting alignments:  86%|########5 | 1392/1619 [00:16<00:02, 108.65it/s]Collecting alignments:  87%|########6 | 1407/1619 [00:16<00:01, 115.21it/s]Collecting alignments:  88%|########7 | 1420/1619 [00:16<00:02, 82.26it/s] Collecting alignments:  88%|########8 | 1431/1619 [00:16<00:02, 87.06it/s]Collecting alignments:  89%|########9 | 1444/1619 [00:16<00:01, 92.48it/s]Collecting alignments:  90%|######### | 1458/1619 [00:16<00:01, 99.86it/s]Collecting alignments:  91%|######### | 1470/1619 [00:16<00:01, 100.10it/s]Collecting alignments:  92%|#########1| 1485/1619 [00:17<00:01, 111.97it/s]Collecting alignments:  93%|#########3| 1511/1619 [00:17<00:00, 141.85it/s]Collecting alignments:  94%|#########4| 1527/1619 [00:17<00:00, 146.47it/s]Collecting alignments:  95%|#########5| 1543/1619 [00:17<00:00, 119.13it/s]Collecting alignments:  96%|#########6| 1556/1619 [00:17<00:00, 92.78it/s] Collecting alignments:  97%|#########6| 1567/1619 [00:17<00:00, 84.91it/s]Collecting alignments:  98%|#########7| 1581/1619 [00:17<00:00, 93.63it/s]Collecting alignments:  99%|#########8| 1598/1619 [00:18<00:00, 109.49it/s]Collecting alignments: 100%|##########| 1619/1619 [00:18<00:00, 89.28it/s] 
+Computing motion vectors:   0%|          | 0/1619 [00:00<?, ?it/s]Computing motion vectors:   6%|6         | 105/1619 [00:00<00:01, 1040.43it/s]Computing motion vectors:  13%|#3        | 212/1619 [00:00<00:01, 1054.90it/s]Computing motion vectors:  20%|#9        | 320/1619 [00:00<00:01, 1062.64it/s]Computing motion vectors:  26%|##6       | 429/1619 [00:00<00:01, 1069.75it/s]Computing motion vectors:  33%|###3      | 538/1619 [00:00<00:01, 1075.93it/s]Computing motion vectors:  40%|###9      | 647/1619 [00:00<00:00, 1079.94it/s]Computing motion vectors:  47%|####6     | 756/1619 [00:00<00:00, 1082.72it/s]Computing motion vectors:  53%|#####3    | 865/1619 [00:00<00:00, 1084.61it/s]Computing motion vectors:  60%|######    | 974/1619 [00:00<00:00, 1085.94it/s]Computing motion vectors:  67%|######6   | 1083/1619 [00:01<00:00, 1086.40it/s]Computing motion vectors:  74%|#######3  | 1192/1619 [00:01<00:00, 1084.30it/s]Computing motion vectors:  80%|########  | 1301/1619 [00:01<00:00, 1083.59it/s]Computing motion vectors:  87%|########7 | 1410/1619 [00:01<00:00, 1083.36it/s]Computing motion vectors:  94%|#########3| 1519/1619 [00:01<00:00, 1082.97it/s]Computing motion vectors: 100%|##########| 1619/1619 [00:01<00:00, 1079.71it/s]
+Running on CPU0.
+Running on CPU1.
+Running on CPU2.
+Running on CPU3.
+Running on CPU4.
+Running on CPU5.
+Running on CPU6.
+Running on CPU7.
+Running on CPU8.
+Running on CPU9.
+Running on CPU10.
+Running on CPU11.
+Running on CPU12.
+Running on CPU13.
+Running on CPU14.
+Running on CPU15.
+Running on CPU16.
+Running on CPU17.
+Running on CPU18.
+Running on CPU19.
+Running on CPU20.
+Running on CPU21.
+Running on CPU22.
+Running on CPU23.
+Running on CPU24.
+Running on CPU25.
+Running on CPU26.
+Running on CPU27.
+Running on CPU28.
+Running on CPU29.
+Running on CPU30.
+Running on CPU31.
+Running on CPU33.
+Running on CPU32.
+Running on CPU35.
+Running on CPU34.
+Running on CPU36.
+Running on CPU37.
+Running on CPU38.
+Running on CPU40.
+Running on CPU39.
+Running on CPU41.
+Running on CPU42.
+Running on CPU43.
+Running on CPU44.
+Running on CPU45.
+Running on CPU46.
+Running on CPU47.
+Merging:   0%|          | 0/1619 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/mainscripts/Merger.py", line 196, in main
+    InteractiveMergerSubprocessor (
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/core/joblib/SubprocessorBase.py", line 214, in run
+    self.on_clients_initialized()
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/merger/InteractiveMergerSubprocessor.py", line 299, in on_clients_initialized
+    self.screen_manager.show_current()
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/merger/MergerScreen/MergerScreen.py", line 143, in show_current
+    self.screens[self.current_screen_id].show()
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/merger/MergerScreen/MergerScreen.py", line 105, in show
+    io.show_image(self.scrn_manager.wnd_name, screen)
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/core/interact/interact.py", line 128, in show_image
+    self.on_create_window(wnd_name)
+  File "/scratch/mdp9405/NEW/DeepFaceLab_Linux/DeepFaceLab/core/interact/interact.py", line 460, in on_create_window
+    cv2.namedWindow(wnd_name)
+cv2.error: OpenCV(4.4.0) /tmp/pip-req-build-sfexxcdo/opencv/modules/highgui/src/window.cpp:634: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvNamedWindow'
+
+
+Done.
