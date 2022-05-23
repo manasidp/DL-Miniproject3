@@ -11,6 +11,9 @@ import argparse
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+#Here we are taking arguments from the user about the video on which we will superimpose face and face to be used
+#also the model to be used is given
+#Here we have used data_dst video as default, it will be decoded with decoder a, therefore face from data_src video will be superimposed
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-original_video', type=str, default='data_dst.mp4', help='where to save the images')
